@@ -1,0 +1,160 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.4rem;
+  background-color: #000;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.inner {
+  width: 95%;
+  margin: 0 auto;
+}
+
+/*===video===*/
+.main-video {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -100;
+}
+
+.video {
+  /*display: none;*/
+}
+/*===header===*/
+.hdr {
+  /*z-index: 100px;*/
+  padding: 15px 0;
+}
+
+.title-image {
+  width: 80px;
+  height: 60px;
+}
+
+.title-image img {
+  width: 80px;
+  height: 60px;
+}
+
+.main-title {
+  display: inline-block;
+  width: 400px;
+}
+
+.main-title {
+  font-size: 1.2rem;
+  display: flex;
+}
+
+.title-anchor {
+  display: inline-block;
+  line-height: 60px;
+  font-size: .8rem;
+  margin-left: 10px;
+}
+
+.nav {
+  float: right;
+  margin-top: -30px;
+}
+
+.nav-lists {
+  display: flex;
+}
+
+.nav-list {
+  font-size: .8rem;
+  text-align: center;
+
+}
+
+.nav-list a {
+  display: block;
+  width: 100px;
+}
+
+/*===brank===*/
+.brank {
+  height: 1000px;
+  position: relative;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  /*z-index: 100;*/
+}
+
+
+/*===main-contens===*/
+.main-contents {
+
+}
+.main-content {
+  display: flex;
+}
+
+.content-box {
+  width: 25%;
+  height: 700px;
+  overflow: hidden;
+}
+
+.content-box img {
+  height: 700px;
+  display: none;
+}
+
+.content-box:first-child {
+  background: url('./img/hatuyume.png') no-repeat center center / cover;
+}
+
+.content-box:nth-child(2) {
+  background: url('./img/his.png') no-repeat center center / cover;
+}
+
+.content-box:nth-child(3) {
+  background: url('./img/korea-kankou.jpg') no-repeat center center / cover;
+}
+
+.content-box:last-child {
+  background: url('./img/kankuu.jpg') no-repeat center center / cover;
+}
+
+/*===ftr===*/
+
+.ftr {
+  background-color: #000;
+  text-align: center;
+}
+
+.all-works {
+  padding: 120px 0;
+}
+.all-works a {
+  border: 2px solid;
+  padding: 20px 80px;
+  font-size: 1.2rem;
+}
+
+.ftr-image img {
+  width: 120px;
+  height: 90px;
+}
+
+.copy {
+  padding: 50px;
+  font-size: .6rem;
+}
