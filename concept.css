@@ -14,6 +14,10 @@ a {
   color: #fff;
 }
 
+p {
+  word-wrap: break-word;
+}
+
 .inner {
   width: 95%;
   margin: 0 auto;
@@ -133,71 +137,94 @@ a {
 .what-ev1 {
   /*position: relative;*/
   display: table-cell;
-  vertical-align: top;
+  /*vertical-align: top;*/
   width: 50%;
 }
 
 .what-ev1-img1 {
-  /*position: absolute;
-  top: 0;*/
   vertical-align: top;
   width: 150px;
-  height: 300px;
+  height: 250px;
 }
 
 .what-ev1-img2 {
-  /*position: absolute;
-  left: 0;*/
   vertical-align: top;
   width: 400px;
-  height: 600px;
+  height: 500px;
 }
 
 .what-ev2 {
   display: table-cell;
   width: 50%;
+  /*position: relative;*/
 }
 
 
 .what-ev2-img {
   width: 400px;
-  height: 300px;
+  height: 200px;
+  /*position: absolute;
+  top: 0px;
+  left: 50px;*/
+  vertical-align: top;
+  margin-top: -10px;
 }
 
 .what-ev2-para {
-  display: flex;
-  justify-content: center;
-  /*margin-left: 100px;*/
-  font-size: 1.5rem;
+  /*font-size: 1.5rem;*/
+  width: 450px;
   letter-spacing: .6rem;
   text-align: left;
   line-height: 3rem;
+  margin-left: 80px;
+  margin-top: 40px;
 }
 
 /*sect2*/
 
+.sect2-parent {
+  background-color: #fff;
+  position: relative;
+  overflow: hidden;
+  margin: 10% 0;
+  padding: 80px 0;
+}
+
+.sect-parent::before {
+  content: '';
+  width: ;
+  height: 500px;
+  border-right: 100px solid #fff;
+  border-top: 100% solid transparent;
+  background-color: #fff;
+
+}
+
 .sect2 {
   display: table;
-  text-align: center;
-  padding-top: 200px;
+  height: 600px;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 150px;
+  color: #000;
 }
 
 .like-ev1 {
   display: table-cell;
   width: 50%;
-  position: relative;
 }
 
 .like-ev1-img {
   width: 300px;
-  position: absolute;
-  top: 40px;
-  left: 50%;
-  transform: translateX(-50%);
+  vertical-align: top;
 }
 
 .like-ev1-para {
-
+  width: 400px;
+  margin-top: 30px;
+  letter-spacing: .6rem;
+  text-align: left;
+  line-height: 3rem;
 }
 
 .like-ev2 {
@@ -218,4 +245,62 @@ a {
   position: absolute;
   top: 0;
   right: 30%;
+}
+
+/*happy*/
+
+.sect3 {
+  width: 80%;
+  margin: 100px auto;
+  display: table;
+}
+
+.happy1 {
+  display: table-cell;
+  width: 50%;
+}
+
+.happy1-img1 {
+  width: 80px;
+  height: 150px;
+  vertical-align: top;
+}
+
+.happy1-img2 {
+  width: 300px;
+  margin-left: 30px;
+}
+
+.happy2 {
+  display: table-cell;
+  width: 50%;
+  vertical-align: top;
+}
+
+.happy2-img1 {
+  width: 300px;
+  height: 150px;
+}
+
+.happy2-para {
+  /*margin-left: 100px;*/
+  font-size: 1.5rem;
+  letter-spacing: .6rem;
+  text-align: left;
+  line-height: 3rem;
+}
+
+/*ftr*/
+.ftr {
+  margin-top: 100px;
+  text-align: center;
+}
+.ftr-image img {
+  width: 120px;
+  height: 90px;
+}
+
+.copy {
+  padding: 50px;
+  font-size: .6rem;
 }
